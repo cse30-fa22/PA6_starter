@@ -12,3 +12,7 @@ chmod 0755 in/cmd*
 Please protect your source code against accidental loss!
 
 Make sure you use git to periodically check in your work
+
+You will edit the file SELVERS.h to use you version of the
+
+assignment files instead of the solution version
