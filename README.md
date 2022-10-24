@@ -13,6 +13,6 @@ Please protect your source code against accidental loss!
 
 Make sure you use git to periodically check in your work
 
-You will edit the file SELVERS.h to use you version of the
+You will edit the file SELVERS.h to use your version of the
 
 assignment files instead of the solution version
