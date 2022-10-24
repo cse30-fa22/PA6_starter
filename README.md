@@ -5,9 +5,9 @@ After you do a git clone, do the following
 
 cd PA6
 
-chmod 0755 runtest
+chmod 0555 runtest
 
-chmod 0755 in/cmd*
+chmod 0555 in/cmd*
 
 Please protect your source code against accidental loss!
 
