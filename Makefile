@@ -8,7 +8,7 @@ OBJ     = main.o readsubs.o commands.o insticket.o delticket.o vehlookup.o freet
           subs.o largest.o sumlookup.o
 
 # special libraries
-LIB	= libpa3.a
+LIB	= libpa6.a
 LIBFLAGS =-L ./ $(LIB)
 
 # select the compiler and flags you can over-ride on command line e.g. make DEBUG= 
