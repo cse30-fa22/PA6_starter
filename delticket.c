@@ -56,9 +56,9 @@ delticket(char *plate, char *state, char *summ)
 {
     unsigned long long summid;
 
-    (void)plate;    // delete this when you write your code
-    (void)state;    // delete this when you write your code
-
+    /*
+     * convert the summons string to a number
+     */
     if (strtosumid(summ, &summid) != 0)
         return -1;
 
@@ -66,10 +66,18 @@ delticket(char *plate, char *state, char *summ)
      * first find the vehicle
      */
 
+   /*
+    * did we find the vehicle?
+    */
+
     /*
      * find the ticket
      */
    
+    /*
+     * if ticket not found we are done
+     */
+
     /*
      * update the summary fields and remove the ticket
      */

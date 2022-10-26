@@ -4,7 +4,7 @@ all: $(PROG)
 
 # associated object files 
 HEAD    = commands.h hashdb.h misc.h token.h parking.h
-OBJ     = main.o readsubs.o commands.o insticket.o delticket.o vehlookup.o freetickets.o \
+OBJ     = main.o loaddb.o commands.o insticket.o delticket.o vehlookup.o freetickets.o \
           subs.o largest.o sumlookup.o
 
 # special libraries
@@ -21,8 +21,8 @@ CFLAGS	= -I. $(DEBUG) $(WARN) $(CSTD) $(CDEFS) -include SELVERS.h
 
 $(OBJ):             parking.h hashdb.h SELVERS.h
 command.o:          commands.h
-main.o:             readsubs.h commands.h
-readsubs.o:         readsubs.h token.h
+main.o:             loaddb.h commands.h
+loaddb.o:           loaddb.h token.h
 
 # specify how to compile the target
 $(PROG):	$(OBJ) $(LIB)

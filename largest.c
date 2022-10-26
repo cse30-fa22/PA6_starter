@@ -22,7 +22,7 @@ void
 largest(void)
 {
     struct vehicle *count = NULL; // vehicle with largest number of tickets
-    struct vehicle *fine = NULL;  // vehicle with largestt total fine
+    struct vehicle *fine = NULL;  // vehicle with largest total fine
 
 /* your code here */
 

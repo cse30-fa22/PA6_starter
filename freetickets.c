@@ -25,7 +25,7 @@ TODO(USING THE SOLUTION freetickets.c NOT MY CODE)
 void
 freetickets(void)
 {
-    unsigned long cnt = 0UL;
+    int empty = 1; // set to zero if the database is not empty
 
     /*
      * walk down each chain
@@ -40,6 +40,12 @@ freetickets(void)
      * free the vehicle
      */
 
+    /*
+     * chain is removed, update the htable entry
+     */
+
+    if (empty)
+        printf("Empty Database\n");
     printf("Total tickets freed: %lu\n", cnt);
     return;
 }
