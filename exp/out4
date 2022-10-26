@@ -54,6 +54,10 @@ Command: F HGZ9678 NY
 
    Plate: HGZ9678, State: NY 
       No tickets
+Command: S 1105232165
+
+   Plate: GLS6001, State: NY, Tickets: 1, Total: $115
+      Ticket 0001 Summons #: 1105232165 Date: 07/03/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
 Command: V
 
 Total vehicles in database: 98

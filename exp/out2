@@ -2,27 +2,27 @@ Command: D
 
 Chain 0: 
    Plate: HLC3177, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401569 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GER9006, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131610520 Date: 07/02/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
    Plate: GTR7949, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1130964875,06/08/2018,(24) $ 65 NO PARKING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1130964875 Date: 06/08/2018 Fine Code: 24 Description: $ 65 NO PARKING-EXC. AUTH. VEHICLE
    Plate: HXM7361, State: NY, Tickets: 1, Total: $115
-      Ticket #0001: 1121274900,06/28/2018,(46) $115 DOUBLE PARKING
+      Ticket 0001 Summons #: 1121274900 Date: 06/28/2018 Fine Code: 46 Description: $115 DOUBLE PARKING
 Chain 1: 
    Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401636 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HDG7076, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131599342 Date: 06/29/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 2: 
    Plate: HPC9135, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401594 Date: 07/02/2019 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HZN6473, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401570 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GLS6001, State: NY, Tickets: 3, Total: $345
-      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
-      Ticket #0002: 1105232166,07/04/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
-      Ticket #0003: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0001 Summons #: 1105232165 Date: 07/03/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0002 Summons #: 1105232166 Date: 07/04/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0003 Summons #: 1105232167 Date: 07/05/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
 Command: V
 
 Total vehicles in database: 9
@@ -37,13 +37,13 @@ Largest fine Plate: GLS6001, State: NY tickets: 3, total fine: $345
 Command: F GLS6001 NY
 
    Plate: GLS6001, State: NY, Tickets: 3, Total: $345
-      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
-      Ticket #0002: 1105232166,07/04/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
-      Ticket #0003: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0001 Summons #: 1105232165 Date: 07/03/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0002 Summons #: 1105232166 Date: 07/04/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0003 Summons #: 1105232167 Date: 07/05/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
 Command: F HPC9135 NY
 
    Plate: HPC9135, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401594 Date: 07/02/2019 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
 Command: P GLS6001 NY 1105232166
 
 Plate: GLS6001, State NY, Summons 1105232166 paid
@@ -51,26 +51,26 @@ Command: D
 
 Chain 0: 
    Plate: HLC3177, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401569 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GER9006, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131610520 Date: 07/02/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
    Plate: GTR7949, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1130964875,06/08/2018,(24) $ 65 NO PARKING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1130964875 Date: 06/08/2018 Fine Code: 24 Description: $ 65 NO PARKING-EXC. AUTH. VEHICLE
    Plate: HXM7361, State: NY, Tickets: 1, Total: $115
-      Ticket #0001: 1121274900,06/28/2018,(46) $115 DOUBLE PARKING
+      Ticket 0001 Summons #: 1121274900 Date: 06/28/2018 Fine Code: 46 Description: $115 DOUBLE PARKING
 Chain 1: 
    Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401636 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HDG7076, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131599342 Date: 06/29/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 2: 
    Plate: HPC9135, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401594 Date: 07/02/2019 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HZN6473, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401570 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GLS6001, State: NY, Tickets: 2, Total: $230
-      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
-      Ticket #0002: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0001 Summons #: 1105232165 Date: 07/03/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0002 Summons #: 1105232167 Date: 07/05/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
 Command: V
 
 Total vehicles in database: 9
@@ -89,24 +89,24 @@ Command: D
 
 Chain 0: 
    Plate: HLC3177, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401569 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GER9006, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131610520 Date: 07/02/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
    Plate: HXM7361, State: NY, Tickets: 1, Total: $115
-      Ticket #0001: 1121274900,06/28/2018,(46) $115 DOUBLE PARKING
+      Ticket 0001 Summons #: 1121274900 Date: 06/28/2018 Fine Code: 46 Description: $115 DOUBLE PARKING
 Chain 1: 
    Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401636 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HDG7076, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131599342 Date: 06/29/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 2: 
    Plate: HPC9135, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401594 Date: 07/02/2019 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HZN6473, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401570 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GLS6001, State: NY, Tickets: 2, Total: $230
-      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
-      Ticket #0002: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0001 Summons #: 1105232165 Date: 07/03/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0002 Summons #: 1105232167 Date: 07/05/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
 Command: L
 
 Most tickets Plate: GLS6001, State: NY tickets: 2, total fine: $230
@@ -125,24 +125,24 @@ Command: D
 
 Chain 0: 
    Plate: HLC3177, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401569 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GER9006, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131610520 Date: 07/02/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
    Plate: HXM7361, State: NY, Tickets: 1, Total: $115
-      Ticket #0001: 1121274900,06/28/2018,(46) $115 DOUBLE PARKING
+      Ticket 0001 Summons #: 1121274900 Date: 06/28/2018 Fine Code: 46 Description: $115 DOUBLE PARKING
 Chain 1: 
    Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401636 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HDG7076, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131599342 Date: 06/29/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 2: 
    Plate: HPC9135, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401594 Date: 07/02/2019 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HZN6473, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401570 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GLS6001, State: NY, Tickets: 2, Total: $230
-      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
-      Ticket #0002: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0001 Summons #: 1105232165 Date: 07/03/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0002 Summons #: 1105232167 Date: 07/05/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
 Command: V
 
 Total vehicles in database: 8
@@ -161,22 +161,22 @@ Command: D
 
 Chain 0: 
    Plate: HLC3177, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401569 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GER9006, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131610520 Date: 07/02/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 1: 
    Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401636 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HDG7076, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131599342 Date: 06/29/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 2: 
    Plate: HPC9135, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401594 Date: 07/02/2019 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HZN6473, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401570 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GLS6001, State: NY, Tickets: 2, Total: $230
-      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
-      Ticket #0002: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0001 Summons #: 1105232165 Date: 07/03/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0002 Summons #: 1105232167 Date: 07/05/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
 Command: V
 
 Total vehicles in database: 7
@@ -191,8 +191,8 @@ Largest fine Plate: GLS6001, State: NY tickets: 2, total fine: $230
 Command: S 1105232165
 
    Plate: GLS6001, State: NY, Tickets: 2, Total: $230
-      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
-      Ticket #0002: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0001 Summons #: 1105232165 Date: 07/03/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0002 Summons #: 1105232167 Date: 07/05/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
 Command: P GLS6001 NY 1105232165
 
 Plate: GLS6001, State NY, Summons 1105232165 paid
@@ -204,21 +204,21 @@ Command: D
 
 Chain 0: 
    Plate: HLC3177, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401569 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GER9006, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131610520 Date: 07/02/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 1: 
    Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401636 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HDG7076, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131599342 Date: 06/29/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 2: 
    Plate: HPC9135, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401594 Date: 07/02/2019 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HZN6473, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401570 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GLS6001, State: NY, Tickets: 1, Total: $115
-      Ticket #0001: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket 0001 Summons #: 1105232167 Date: 07/05/2018 Fine Code: 14 Description: $115 NO STANDING-DAY/TIME LIMITS
 Command: V
 
 Total vehicles in database: 7
@@ -237,19 +237,19 @@ Command: D
 
 Chain 0: 
    Plate: HLC3177, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401569 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: GER9006, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131610520 Date: 07/02/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 1: 
    Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401636 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HDG7076, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131599342 Date: 06/29/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 2: 
    Plate: HPC9135, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401594 Date: 07/02/2019 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HZN6473, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401570 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
 Command: V
 
 Total vehicles in database: 6
@@ -264,17 +264,17 @@ Command: D
 
 Chain 0: 
    Plate: GER9006, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131610520 Date: 07/02/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 1: 
    Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401636 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HDG7076, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131599342 Date: 06/29/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 2: 
    Plate: HPC9135, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401594 Date: 07/02/2019 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HZN6473, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401570 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
 Command: V
 
 Total vehicles in database: 5
@@ -297,14 +297,14 @@ Command: D
 
 Chain 1: 
    Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401636 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HDG7076, State: NY, Tickets: 1, Total: $95
-      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+      Ticket 0001 Summons #: 1131599342 Date: 06/29/2018 Fine Code: 17 Description: $ 95 NO STANDING-EXC. AUTH. VEHICLE
 Chain 2: 
    Plate: HPC9135, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401594 Date: 07/02/2019 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HZN6473, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401570 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
 Command: V
 
 Total vehicles in database: 4
@@ -323,12 +323,12 @@ Command: D
 
 Chain 1: 
    Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401636 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
 Chain 2: 
    Plate: HPC9135, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401594 Date: 07/02/2019 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HZN6473, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401570 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
 Command: V
 
 Total vehicles in database: 3
@@ -347,9 +347,9 @@ Command: D
 
 Chain 2: 
    Plate: HPC9135, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401594 Date: 07/02/2019 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
    Plate: HZN6473, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401570 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
 Command: V
 
 Total vehicles in database: 2
@@ -368,7 +368,7 @@ Command: D
 
 Chain 2: 
    Plate: HZN6473, State: NY, Tickets: 1, Total: $65
-      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+      Ticket 0001 Summons #: 1133401570 Date: 07/02/2018 Fine Code: 21 Description: $ 65 NO PARKING-STREET CLEANING
 Command: V
 
 Total vehicles in database: 1
@@ -388,11 +388,7 @@ Command: D
 Empty Database
 Command: V
 
-Total vehicles in database: 0
-Total tickets in database: 0
-Longest hash chain in database index number: 0 Length: 0
-Shortest hash chain in database index number: 0 Length: 0
-Total of all unpaid fines in the database: $0
+Empty Database
 Command: L
 
 Empty database
@@ -404,11 +400,7 @@ Command: D
 Empty Database
 Command: V
 
-Total vehicles in database: 0
-Total tickets in database: 0
-Longest hash chain in database index number: 0 Length: 0
-Shortest hash chain in database index number: 0 Length: 0
-Total of all unpaid fines in the database: $0
+Empty Database
 Command: L
 
 Empty database
@@ -420,11 +412,7 @@ Command: D
 Empty Database
 Command: V
 
-Total vehicles in database: 0
-Total tickets in database: 0
-Longest hash chain in database index number: 0 Length: 0
-Shortest hash chain in database index number: 0 Length: 0
-Total of all unpaid fines in the database: $0
+Empty Database
 Command: L
 
 Empty database
@@ -436,11 +424,7 @@ Command: D
 Empty Database
 Command: V
 
-Total vehicles in database: 0
-Total tickets in database: 0
-Longest hash chain in database index number: 0 Length: 0
-Shortest hash chain in database index number: 0 Length: 0
-Total of all unpaid fines in the database: $0
+Empty Database
 Command: L
 
 Empty database
@@ -452,14 +436,11 @@ Command: D
 Empty Database
 Command: V
 
-Total vehicles in database: 0
-Total tickets in database: 0
-Longest hash chain in database index number: 0 Length: 0
-Shortest hash chain in database index number: 0 Length: 0
-Total of all unpaid fines in the database: $0
+Empty Database
 Command: L
 
 Empty database
 Command: Q
 
+Empty Database
 Total tickets freed: 0
