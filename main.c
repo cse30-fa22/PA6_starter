@@ -1,5 +1,5 @@
 /*
- * Programming assignment 6 
+ * Programming assignment 6 sample solution
  * this is excessively commented for quick reads...
  *
  * Usage ./parking -c cvs_file -f fine_file
@@ -32,7 +32,7 @@
 #include <errno.h>
 #include "parking.h"
 #include "hashdb.h"
-#include "readsubs.h"
+#include "loaddb.h"
 #include "commands.h"
 
 /*
@@ -54,7 +54,6 @@ uint32_t tabsz = TABSZ;     /* hash table size */
  *
  *  Has a simple command line interface; runs until EOF on stdio or q command
  *  see commands.c
- *
  */ 
 int 
 main(int argc, char **argv)

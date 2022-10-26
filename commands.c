@@ -16,6 +16,7 @@ static void paycmd(char *);
 static void insertcmd(char *);
 static void chaincmd(char *);
 static void findsumm(char *);
+static void menu(void);
 
 /*
  * simple command line interface just to test code
@@ -32,69 +33,95 @@ commands(int silent)
     /*
      * loop through the rest of the codes
      */
-    if (!silent)            // set when running non-interactive tests...
+    if (!silent) {            // set when running non-interactive tests...
+        menu();
         printf("Input command: ");
+    }
     while (getline(&buf, &bufsz, stdin) > 0) {
         if (silent)
             printf("Command: %s\n", buf);
         switch(*buf) {
         case 'C':
+            /* FALL THROUGH */
         case 'c':
             chaincmd(buf);
             break;
         case 'D':
+            /* FALL THROUGH */
         case 'd':
             dumpdb();
             break;
+        case 'E':
+            /* FALL THROUGH */
+        case 'e':
+            freetickets();
+            break;
         case 'F':
+            /* FALL THROUGH */
         case 'f':
             findcmd(buf);
             break;
         case 'I':
+            /* FALL THROUGH */
         case 'i':
             insertcmd(buf);
             break;
         case 'P':
+            /* FALL THROUGH */
         case 'p':
             paycmd(buf);
             break;
         case 'L':
+            /* FALL THROUGH */
         case 'l':
             largest();
             break;
         case 'V':
+            /* FALL THROUGH */
         case 'v':
             verifydb();
             break;
         case 'Q':
+            /* FALL THROUGH */
         case 'q':
             free(buf);
             return;
         case 's':
+            /* FALL THROUGH */
         case 'S':
             findsumm(buf);
             break; 
         default:
             if (silent)
                 break;
-            printf("Unknown command %c\n", *buf);
-            printf("Commands (PLATE and STATE must be in all CAPS):\n");
-            printf("\tF PLATE STATE                   Find tickets for vehicle\n");
-            printf("\tP PLATE STATE summons_number    Pay ticket for vehicle\n");
-            printf("\tI SUMMONS PLATE STATE DATE CODE Insert a summons\n");
-            printf("\tI PLATE STATE summons_number    Pay ticket for vehicle\n");
-            printf("\tS SUMMONS                       Find vehicle by summons\n");
-            printf("\tL                               Print largest fines and tickets\n");
-            printf("\tV                               Verify total ticket and total fines\n");
-            printf("\tD                               Dump (print) entire database\n");
-            printf("\tC chain index                   Chain print a single hash chain\n");
-            printf("\tQ                               Quit\n");
+            if (*buf != '\n')
+                printf("Unknown command %c\n", *buf);
+            menu();
             break;
         }
         if (!silent)
             printf("Input command: ");
     }
     free(buf);
+    return;
+}
+
+static void
+menu(void)
+{
+    printf("***** Command Summary *****\n");
+    printf("Debug commands:\n");
+    printf("\tQ                               Quit exit and free up memory\n");
+    printf("\tV                               Verify database \n");
+    printf("\tD                               Dump (print) entire database\n");
+    printf("\tC chain index                   Print the vehicles on a hash chain\n");
+    printf("\tE                               Erase the vehicle database (delete database contents)\n");
+    printf("Query commands (PLATE and STATE must be in all CAPS):\n");
+    printf("\tL                               Print largest fine and largest tickets count\n");
+    printf("\tF PLATE STATE                   Print the tickets for a specific vehicle\n");
+    printf("\tS SUMMONS                       Print vehicle information at that has specific summons\n");
+    printf("\tP PLATE STATE summons_number    Pay ticket for vehicle\n");
+    printf("\tI SUMMONS PLATE STATE DATE CODE Insert a summons (date format: mm/dd/yyyy)\n");
     return;
 }
 
