@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+#include <ctype.h>
 #include <errno.h>
 #include "parking.h"
 #include "hashdb.h"
@@ -116,7 +117,7 @@ menu(void)
     printf("\tD                               Dump (print) entire database\n");
     printf("\tC chain index                   Print the vehicles on a hash chain\n");
     printf("\tE                               Erase the vehicle database (delete database contents)\n");
-    printf("Query commands (PLATE and STATE must be in all CAPS):\n");
+    printf("Query commands:n");
     printf("\tL                               Print largest fine and largest tickets count\n");
     printf("\tF PLATE STATE                   Print the tickets for a specific vehicle\n");
     printf("\tS SUMMONS                       Print vehicle information at that has specific summons\n");
@@ -138,10 +139,21 @@ findcmd(char *buf)
     char plate[12];         /* wired in limits for sscanf safety */
     char state[3];          /* wired in limits for sscanf safety */
     struct vehicle *found;
+    char *ptr;
 
     if (sscanf(buf,"%1s %11s %2s", cmd, plate, state) != 3) {
         printf("Useage: F PLATE STATE\n");
         return;
+    }
+
+    for (ptr = plate; *ptr != '\0'; ptr++) {
+        if (islower(*ptr))
+            *ptr = toupper(*ptr);
+    }
+
+    for (ptr = state; *ptr != '\0'; ptr++) {
+        if (islower(*ptr))
+            *ptr = toupper(*ptr);
     }
 
     found = vehiclelookup(plate, state);
@@ -195,10 +207,21 @@ paycmd(char *buf)
     char plate[12];         /* wired in limits for sscanf safety */
     char state[3];          /* wired in limits for sscanf safety */
     char summ[14];          /* wired in limits for sscanf safety */
+    char *ptr;
 
     if (sscanf(buf,"%1s %11s %2s %13s", cmd, plate, state, summ) != 4) {
         printf("Useage: P PLATE STATE SUMMONS_NUMBER\n");
         return;
+    }
+
+    for (ptr = plate; *ptr != '\0'; ptr++) {
+        if (islower(*ptr))
+            *ptr = toupper(*ptr);
+    }
+
+    for (ptr = state; *ptr != '\0'; ptr++) {
+        if (islower(*ptr))
+            *ptr = toupper(*ptr);
     }
 
     if (delticket(plate, state, summ) == 0)
@@ -227,6 +250,7 @@ insertcmd(char *buf)
     char date[12];          /* wired in limits for sscanf safety */
     char codstr[4];         /* wired in limits for sscanf safety */
     char *endptr;
+    char *ptr;
 
     if (sscanf(buf,"%1s %13s %11s %2s %11s %3s", cmd, summ, plate, state, date,
             codstr) != 6) {
@@ -241,6 +265,16 @@ insertcmd(char *buf)
     if ((errno != 0) || (*endptr != '\0') || (code >= CODES) || (code <= 0)) {
         printf("%s: bad code value\n", codstr);
         return;
+    }
+
+    for (ptr = plate; *ptr != '\0'; ptr++) {
+        if (islower(*ptr))
+            *ptr = toupper(*ptr);
+    }
+
+    for (ptr = state; *ptr != '\0'; ptr++) {
+        if (islower(*ptr))
+            *ptr = toupper(*ptr);
     }
 
     if (insertticket(summ, plate, state, date, code) != 0)
