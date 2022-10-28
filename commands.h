@@ -3,5 +3,5 @@
 /*
  * function prototypes
  */
-void commands(int);
+void commands(int, char *);
 #endif

@@ -142,12 +142,13 @@ freefines(void)
  * returns 0 on success, -1 on failure
  */
  int
- readtickets(char *datanm)
+ readtickets(char *datanm, int fromcmd)
  {
     FILE *fp;
     char *buf = NULL;       /* input buffer, getline() will allocate it */
     size_t bufsz = 0;       /* size of buffer altered by getline()*/
-    unsigned long linecnt;  /* count of lines in finetable */
+    unsigned long linecnt;  /* count of lines in ticket file */
+    unsigned long goodcnt;  /* count of good lines in ticket file */
     int code;               /* code entry in record */
     char *endptr;           /* for strtol(); ensure entire argument is parsed */
     char *coltab[DCOLS];    /* pointers to ticket table fields */
@@ -167,6 +168,7 @@ freefines(void)
         return 0;
     }
     linecnt = 1UL;
+    goodcnt = 0UL;
     /*
      * loop through the rest of the codes
      */
@@ -192,8 +194,11 @@ freefines(void)
                         coltab[DATE_IN], code) != 0) {
             fprintf(stderr, "%s: ticket file record %lu summons:%s insertticket failed \n",
                  argv0, linecnt, coltab[SUMM_IN]);
-        }
+        } else
+            goodcnt++;
     }
+    if (fromcmd)
+        printf("Total tickets loaded: %lu\n", goodcnt);
 
     free(buf);
     fclose(fp);

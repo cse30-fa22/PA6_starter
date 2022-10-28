@@ -7,6 +7,7 @@
 #include <errno.h>
 #include "parking.h"
 #include "hashdb.h"
+#include "loaddb.h"
 #include "commands.h"
 
 /*
@@ -26,7 +27,7 @@ static void menu(void);
  * is built-in.
  */
 void
-commands(int silent)
+commands(int silent, char *ticknm)
 {
     char *buf = NULL;       /* input buffer, getline() will allocate it */
     size_t bufsz = 0;       /* size of buffer altered by getline()*/
@@ -72,6 +73,11 @@ commands(int silent)
         case 'p':
             paycmd(buf);
             break;
+        case 'R':
+            /* FALL THROUGH */
+        case 'r':
+            (void)readtickets(ticknm, 1); 
+            break;
         case 'L':
             /* FALL THROUGH */
         case 'l':
@@ -112,17 +118,18 @@ menu(void)
 {
     printf("***** Command Summary *****\n");
     printf("Debug commands:\n");
-    printf("\tQ                               Quit exit and free up memory\n");
-    printf("\tV                               Verify database \n");
-    printf("\tD                               Dump (print) entire database\n");
-    printf("\tC chain index                   Print the vehicles on a hash chain\n");
-    printf("\tE                               Erase the vehicle database (delete database contents)\n");
-    printf("Query commands:n");
-    printf("\tL                               Print largest fine and largest tickets count\n");
-    printf("\tF PLATE STATE                   Print the tickets for a specific vehicle\n");
-    printf("\tS SUMMONS                       Print vehicle information at that has specific summons\n");
-    printf("\tP PLATE STATE summons_number    Pay ticket for vehicle\n");
-    printf("\tI SUMMONS PLATE STATE DATE CODE Insert a summons (date format: mm/dd/yyyy)\n");
+    printf("\tQ                                 Quit exit and free up memory\n");
+    printf("\tV                                 Verify database \n");
+    printf("\tD                                 Dump (print) entire database\n");
+    printf("\tC index                           Print the vehicles on a hash chain[index]\n");
+    printf("\tE                                 Erase the vehicle database (delete database contents)\n");
+    printf("\tR                                 Reload the vehicle database (load database contents)\n");
+    printf("Query commands:\n");
+    printf("\tL                                 Print largest fine and largest tickets count\n");
+    printf("\tF PLATE STATE                     Print the tickets for a vehicle with id PLATE STATE\n");
+    printf("\tS SUMMONS                         Print vehicle information with the SUMMONS\n");
+    printf("\tP PLATE STATE SUMMONS             Pay SUMMONS number for vehicle with id  PLATE STATE\n");
+    printf("\tI SUMMONS PLATE STATE DATE CODE#  Insert a SUMMONS (date format: mm/dd/yyyy)\n");
     return;
 }
 
@@ -299,9 +306,15 @@ chaincmd(char *buf)
     unsigned long vehicles;
 
     errno = 0;
+    if ((*(buf+1) == '\n') || (*(buf+1) == '\0')) {
+        printf("Specify a chain number between 0 and %u\n", tabsz - 1);
+        printf("Useage: C index\n");
+        return;
+    }
     index = (uint32_t)strtoul(buf+1, &endptr, 10);
     if (((*endptr != '\n') && (*endptr != '\0')) || (errno != 0) || (index >= tabsz)) {
-        printf("C command: index bad value %u %s\n", index, endptr);
+        printf("C command: index not between 0 and %u; bad value %u %s\n", tabsz - 1, 
+                index, endptr);
         printf("Useage: C index\n");
         return;
     }

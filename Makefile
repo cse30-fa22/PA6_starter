@@ -20,7 +20,7 @@ CDEFS	=
 CFLAGS	= -I. $(DEBUG) $(WARN) $(CSTD) $(CDEFS) -include SELVERS.h
 
 $(OBJ):             parking.h hashdb.h SELVERS.h
-command.o:          commands.h
+command.o:          commands.h loaddb.h
 main.o:             loaddb.h commands.h
 loaddb.o:           loaddb.h token.h
 
@@ -36,7 +36,7 @@ emptydb:  $(PROG)
 demodb:   $(PROG)
 	./parking -t3 -f in/Fines.csv -d in/Tiny.csv
 
-LISTA   = 1 2 D
+LISTA   = 1 2 DUP
 LISTB   = 3 4
 LISTC   = 5
 LISTD   = 6

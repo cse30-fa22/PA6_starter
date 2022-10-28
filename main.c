@@ -169,7 +169,7 @@ main(int argc, char **argv)
         free(fineTab);
         return EXIT_FAILURE;
     }
-    if (readtickets(ticknm) != 0) {
+    if (readtickets(ticknm, 0) != 0) {
         freefines();
         free(fineTab);
         freetickets();
@@ -180,7 +180,7 @@ main(int argc, char **argv)
     /*
      * interactive commands
      */
-    commands(silent);
+    commands(silent, ticknm);
 
     freefines();
     free(fineTab);
