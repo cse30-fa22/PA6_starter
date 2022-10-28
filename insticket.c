@@ -80,6 +80,13 @@ insertticket(char *summ, char *plate, char *state, char *date, int code)
     /*
      * either add ticket to chain or add vehicle and then the ticket
      */
+    
+    /*
+     * if you are inserting a ticket and find it is already in the database
+     * do not insert it, do the following error message
+     * fprintf(stderr,"%s: duplicate summons %llu\n", argv0, summid);
+     * then do a return -1;
+     */
 
     return 0;
 }

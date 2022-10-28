@@ -36,7 +36,7 @@ emptydb:  $(PROG)
 demodb:   $(PROG)
 	./parking -t3 -f in/Fines.csv -d in/Tiny.csv
 
-LISTA   = 1 2
+LISTA   = 1 2 D
 LISTB   = 3 4
 LISTC   = 5
 LISTD   = 6
