@@ -1,7 +1,6 @@
 /*
- * Each line below specifies to use your file or the soltuion file
- *
- * Uncomment a line to use YOUR version
+ * Each line below desribes which version to use
+ * Uncomment a line to use YOUR replacement version
  */
 
 /*
