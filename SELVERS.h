@@ -1,5 +1,5 @@
 /*
- * Each line below desribes which version to use
+ * Each line below specifies which version to use
  * Uncomment a line to use YOUR replacement version
  */
 
