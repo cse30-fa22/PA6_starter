@@ -36,9 +36,9 @@
 #include "commands.h"
 
 /*
- * global variable of program name for error message printing
+ * global variables used by most of the functions in the program
  */
-char *argv0;                /* point to argv0 for error messages */
+char *argv0;                /* pointer to argv0 for error messages */
 struct vehicle **htable;    /* pointer to hash table */
 struct fine *fineTab;       /* table of fines by code 1-99 */
 uint32_t tabsz = TABSZ;     /* hash table size */
