@@ -25,7 +25,7 @@ TODO(USING THE SOLUTION freetickets.c NOT MY CODE)
 void
 freetickets(void)
 {
-    int empty = 1; // set to zero when one or more tickets are frred
+    int empty = 1; // set to zero when one or more tickets are freed
 
     /*
      * walk down each chain
