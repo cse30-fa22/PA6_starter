@@ -25,7 +25,7 @@ TODO(USING THE SOLUTION freetickets.c NOT MY CODE)
 void
 freetickets(void)
 {
-    int empty = 1; // set to zero when there is at least one vheicle in the database
+    int empty = 1; // set to zero when there is at least one vehicle in the database
 
     /*
      * walk down each chain
