@@ -42,7 +42,7 @@ TODO(USING THE SOLUTION insticket.c NOT MY CODE)
  *          database. This saves space and is faster to compare than a string         
  *          Conversion function is supplied. use example:
  *               unsigned long long summid;
- *               if (strtosumid(summ, &summid, argv) != 0)
+ *               if (strtosumid(summ, &summid) != 0)
  *                  error handling
  *               new_ticket->summons = summid;
  *  plate   plate id string to be added
@@ -53,7 +53,7 @@ TODO(USING THE SOLUTION insticket.c NOT MY CODE)
  *          The encoding into a number uses Linux time format.
  *          Conversion function is supplied. use example:
  *              time_t dateval;
- *              if (strtoDate(date, &dateval, argv) != 0)
+ *              if (strtoDate(date, &dateval) != 0)
  *                  error handling
  *              new_ticket->date = dateval;
  *  code    summons code integer value used an an index into the fines table
